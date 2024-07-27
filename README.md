@@ -1,6 +1,7 @@
 # String Calculator
 
 This project is a simple string calculator implemented in React and JavaScript using the Test-Driven Development (TDD) approach. The calculator can handle comma-separated numbers, new lines as delimiters, and custom delimiters. It also throws exceptions for negative numbers.
+URL: https://asimahmad.github.io/string-calculator/
 
 ## Features
 
