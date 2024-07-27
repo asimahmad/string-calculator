@@ -9,9 +9,8 @@ function Calculator() {
   const handleCalculate = () => {
     try {
       setError(null);
-      setResult(null);
+      setResult(null)
       const res = add(input);
-      console.log("Res",res)
       setResult(res);
     } catch (e) {
       setError(e.message);
@@ -25,12 +24,16 @@ function Calculator() {
         type="text"
         value={input}
         onChange={e => setInput(e.target.value)}
-        placeholder="Enter numbers"
+        placeholder="Enter Numbers"
         className='calculator__input'
       />
       <button onClick={handleCalculate} className='calculator__button'>Calculate</button>
       {error && <p className='error'>{error}</p>}
       {result !== null && <p>Result: {result}</p>}
+      <div>
+        {add("1\n2,3")}
+      </div>
+      <p>{add('//;\n1;9')}</p>
     </div>
   );
 }

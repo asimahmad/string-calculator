@@ -1,6 +1,6 @@
 export function add(numbers) {
   if (!numbers) return 0;
-
+  numbers.trim();
   let delimiter = /,|\n/;
   let numString = numbers;
 
