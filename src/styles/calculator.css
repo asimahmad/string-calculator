@@ -1,0 +1,14 @@
+.calculator {
+    text-align: center;
+    padding: 20px; 
+  }
+  .calculator__input{
+    margin-right: 10px;
+    padding: 5px;
+  }
+  .calculator__button{
+    padding: 5px 10px;
+  }
+  .error{
+    color: red;
+  }
